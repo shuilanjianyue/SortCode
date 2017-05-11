@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+<script>
+    function callback(something){
+        var target = document.getElementById('result');
+        target.innerHTML = something;
+    }
+    function alertCallback(aString,bString){
+        alert(aString+bString);
+    }
+</script>
+<br/>
+<br/>
+<div>
+    <input type="button" value="调用一个参数或无参数OC方法" onclick="OC.showMessage('are you Objective-C?')">
+    <input type="button" value="调用多参数的OC方法" onclick="OC.mixAAndB('hellow','world')">
+</div>
+<br/>
+<br/>
+<div>
+    <input type="button" value="调用OC方法并回调" onclick="OC.doSomethingThenCallBack('make it happen')">
+</div>
+<br/>
+<br/>
+<div>
+    <h4>回调结果:</h4>
+    <span id="result"></span>
+</div>
+</body>
+</html>
