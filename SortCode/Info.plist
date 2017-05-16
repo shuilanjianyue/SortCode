@@ -39,22 +39,26 @@
 	</dict>
 	<key>Privacy - Bluetooth Peripheral Usage Description </key>
 	<string>是否许允此App使用蓝牙？</string>
-    <key>NSCalendarsUsageDescription</key>
-    <string>是否允许此App使用日历？</string>
-    <key>NSCameraUsageDescription</key>
-    <string>是否允许此App使用相机？</string>
-    <key>NSContactsUsageDescription</key>
-    <string>是否允许此App使用通信录？</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>我们需要通过您的地理位置信息获取您周边的相关数据</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>我们需要通过您的地理位置信息获取您周边的相关数据</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>是否允许此App使用麦克风？</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>是否允许此App使用相册？</string>
-    <key>NSSpeechRecognitionUsageDescription</key>
-    <string>是否允许此App使用语音识别？</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>是否允许此App使用日历？</string>
+	<key>NSCameraUsageDescription</key>
+	<string>是否允许此App使用相机？</string>
+	<key>NSContactsUsageDescription</key>
+	<string>是否允许此App使用通信录？</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>我们需要通过您的地理位置信息获取您周边的相关数据</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>我们需要通过您的地理位置信息获取您周边的相关数据</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>是否允许此App使用麦克风？</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>是否允许此App使用相册？</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>是否允许此App使用语音识别？</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>loveway.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

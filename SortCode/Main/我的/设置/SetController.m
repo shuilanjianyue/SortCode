@@ -64,7 +64,7 @@
         cell.nightButton.hidden = YES;
         
     }
-   
+    
     cell.dk_backgroundColorPicker =DKColorPickerWithRGB(0xffffff,0x000000,0xffffff);
 
     cell.selectionStyle = UITableViewCellSelectionStyleNone;

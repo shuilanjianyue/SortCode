@@ -139,7 +139,7 @@
     
     [cell.seleBtn addTarget:self action:@selector(rowSele:) forControlEvents:UIControlEventTouchUpInside];
     
-    cell.seleBtn.indexP=indexPath;
+    cell.seleBtn.indexPath=indexPath;
     
     
     NSString *secRow=[NSString stringWithFormat:@"%d|%d",(int)indexPath.section,(int)indexPath.row];
@@ -170,7 +170,7 @@
 #pragma mark - 选择行
 - (void)rowSele:(UIButton *)btn{
     
-    NSString *secRow=[NSString stringWithFormat:@"%d|%d",(int)btn.indexP.section,(int)btn.indexP.row];
+    NSString *secRow=[NSString stringWithFormat:@"%d|%d",(int)btn.indexPath.section,(int)btn.indexPath.row];
     
     NSString *hhhh=[self.rowDic objectForKey:secRow];
     
@@ -178,7 +178,7 @@
     if ([hhhh intValue]==1) {
         
         [self.rowDic setObject:@"0" forKey:secRow];
-        [self.sectionDic setObject:@"0" forKey:[NSString stringWithFormat:@"%d",(int)btn.indexP.section]];
+        [self.sectionDic setObject:@"0" forKey:[NSString stringWithFormat:@"%d",(int)btn.indexPath.section]];
         
         
     }else{
@@ -189,7 +189,7 @@
         
         for (int i=0; i<_rowArray.count; i++) {
             
-            NSString *rrr=[NSString stringWithFormat:@"%d|%d",(int)btn.indexP.section,i];
+            NSString *rrr=[NSString stringWithFormat:@"%d|%d",(int)btn.indexPath.section,i];
             
             NSString *bbbbbb=[self.rowDic objectForKey:rrr];
             
@@ -202,14 +202,14 @@
             
         }else{
             
-            [self.sectionDic setObject:@"1" forKey:[NSString stringWithFormat:@"%d",(int)btn.indexP.section]];
+            [self.sectionDic setObject:@"1" forKey:[NSString stringWithFormat:@"%d",(int)btn.indexPath.section]];
             
         }
     }
     
     
     //一个section刷新
-    NSIndexSet *indexSet=[[NSIndexSet alloc]initWithIndex:btn.indexP.section];
+    NSIndexSet *indexSet=[[NSIndexSet alloc]initWithIndex:btn.indexPath.section];
     
     [_tableView reloadSections:indexSet withRowAnimation:UITableViewRowAnimationAutomatic];
     

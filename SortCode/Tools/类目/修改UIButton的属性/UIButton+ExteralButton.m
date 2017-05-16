@@ -14,15 +14,13 @@
 #import "UIButton+ExteralButton.h"
 #import <objc/runtime.h>
 
-static const void *indexPath = &indexPath;
 
 @implementation UIButton (ExteralButton)
 
-@dynamic indexP;
 
-- (NSIndexPath *)indexP
+- (NSIndexPath *)indexPath
 {
-    return objc_getAssociatedObject(self, indexPath);
+    return objc_getAssociatedObject(self, @selector(indexPath));
 }
 
 /*
@@ -33,9 +31,9 @@ static const void *indexPath = &indexPath;
  //4 关键策略  OBJC_ASSOCIATION_RETAIN_NONATOMIC
  
  */
--  (void)setIndexP:(NSIndexPath *)indexP
+-  (void)setIndexPath:(NSIndexPath *)indexPath
 {
-    objc_setAssociatedObject(self, indexPath, indexP, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(indexPath), indexPath, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 

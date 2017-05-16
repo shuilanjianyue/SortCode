@@ -30,6 +30,7 @@
 
 @end
 
+
 @implementation _FDFullscreenPopGestureRecognizerDelegate
 
 
@@ -240,12 +241,14 @@ typedef void (^_FDViewControllerWillAppearInjectBlock)(UIViewController *viewCon
     return panGestureRecognizer;
 }
 
+
 - (BOOL)fd_viewControllerBasedNavigationBarAppearanceEnabled
 {
     NSNumber *number = objc_getAssociatedObject(self, _cmd);
     if (number) {
         return number.boolValue;
     }
+    
     self.fd_viewControllerBasedNavigationBarAppearanceEnabled = YES;
     
     return YES;

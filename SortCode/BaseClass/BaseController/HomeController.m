@@ -24,7 +24,7 @@
 #import "ShouShiController.h"
 #import "FMDBController.h"
 #import "NSTimersController.h"
-
+#import "RuntimeController.h"
 
 @interface HomeController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -44,7 +44,7 @@
     [super viewDidLoad];
     
     
-    self.dataArray = @[@"省市区",@"蓝牙开发",@"微定位服务iBeacon技术",@"复制粘贴剪切",@"淘宝购物车动画",@"动画",@"CATransition",@"手势",@"数据库",@"NSTimer"];
+    self.dataArray = @[@"省市区",@"蓝牙开发",@"微定位服务iBeacon技术",@"复制粘贴剪切",@"淘宝购物车动画",@"动画",@"CATransition",@"手势",@"数据库",@"NSTimer",@"runtime"];
     
     self.navBar.titleLabel.text = @"首页";
     
@@ -72,6 +72,8 @@
     
     if (cell == nil) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        
+        
     }
     
     cell.textLabel.text = self.dataArray[indexPath.row];
@@ -136,6 +138,9 @@
         
         
     }else if (indexPath.row == 10){
+        
+        RuntimeController *runtime =[[RuntimeController alloc]init];
+        [self pushNewViewController:runtime];
         
         
     }else if (indexPath.row == 11){

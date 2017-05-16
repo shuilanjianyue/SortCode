@@ -8,6 +8,7 @@
 
 #import "ShopCavController.h"
 #import "ShopCavCell.h"
+#import "UIButton+ExteralButton.h"
 
 @interface ShopCavController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *myTableView;
@@ -82,12 +83,19 @@
     cell.addButton.tag = indexPath.row;
     [cell.addButton addTarget:self action:@selector(addAction:) forControlEvents:UIControlEventTouchUpInside];
     
+    //cell.addButton.indexPath = indexPath;
+    
+    
     return cell;
 }
 
 
 
 - (void)addAction:(UIButton *)btn{
+    
+//    NSLog(@"btn.indexPath.row %d",btn.indexPath.row);
+//    
+//    NSLog(@"btn.indexPath.section %d",btn.indexPath.section);
     
     
     //加入购物车动画效果

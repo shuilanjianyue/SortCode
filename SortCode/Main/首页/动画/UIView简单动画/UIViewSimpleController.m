@@ -30,6 +30,8 @@
     [super viewDidLoad];
     
     
+    self.navBar.titleLabel.text= @"动画";
+    
     headbtn=[UIButton buttonWithType:UIButtonTypeCustom];
     //2.设置对象的各项属性
 

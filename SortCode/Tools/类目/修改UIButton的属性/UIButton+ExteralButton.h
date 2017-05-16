@@ -11,8 +11,7 @@
 @interface UIButton (ExteralButton)
 
 //添加UIButton属性
-@property (nonatomic,strong)NSIndexPath *indexP;
-
+@property (nonatomic,strong)NSIndexPath *indexPath;
 
 
 //圆角的button，边框线
