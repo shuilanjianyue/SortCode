@@ -8,6 +8,5 @@
 
 #import "BaseController.h"
 
-@interface WebBridgeController : BaseController<UIWebViewDelegate>
-
+@interface WebBridgeController : BaseController
 @end

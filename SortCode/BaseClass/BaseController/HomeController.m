@@ -10,7 +10,6 @@
 #import "AddressController.h"
 #import "ShareController.h"
 #import "DeleTableController.h"
-#import "WebJsController.h"
 #import "WebBridgeController.h"
 #import "LanYaViewController.h"
 #import "BeaconController.h"
@@ -25,6 +24,7 @@
 #import "FMDBController.h"
 #import "NSTimersController.h"
 #import "RuntimeController.h"
+#import "CustCollectionController.h"
 
 @interface HomeController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -44,7 +44,7 @@
     [super viewDidLoad];
     
     
-    self.dataArray = @[@"省市区",@"蓝牙开发",@"微定位服务iBeacon技术",@"复制粘贴剪切",@"淘宝购物车动画",@"动画",@"CATransition",@"手势",@"数据库",@"NSTimer",@"runtime"];
+    self.dataArray = @[@"省市区",@"蓝牙开发",@"微定位服务iBeacon技术",@"复制粘贴剪切",@"淘宝购物车动画",@"动画",@"CATransition",@"手势",@"数据库",@"NSTimer",@"runtime",@"自定义UICollectionView",@"JS交互"];
     
     self.navBar.titleLabel.text = @"首页";
     
@@ -145,9 +145,15 @@
         
     }else if (indexPath.row == 11){
         
+        CustCollectionController *cust = [[CustCollectionController alloc]init];
+        [self pushNewViewController:cust];
+        
         
     }else if (indexPath.row == 12){
-       
+        
+        WebBridgeController *bridge = [[WebBridgeController alloc]init];
+        [self pushNewViewController:bridge];
+        
         
     }else if (indexPath.row == 13){
         

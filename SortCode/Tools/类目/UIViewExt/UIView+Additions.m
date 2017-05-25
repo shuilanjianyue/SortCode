@@ -294,7 +294,6 @@ CGRect ITTScreenBounds() {
 }
 
 
-
 // 下一个响应链
 - (UIViewController *)viewController
 {

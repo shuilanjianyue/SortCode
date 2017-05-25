@@ -353,15 +353,7 @@
 		2A2F764D1EC3F0A0006AFDA6 /* NSTimersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F75531EC3F0A0006AFDA6 /* NSTimersController.m */; };
 		2A2F764E1EC3F0A0006AFDA6 /* ConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F75561EC3F0A0006AFDA6 /* ConnectionController.m */; };
 		2A2F764F1EC3F0A0006AFDA6 /* SessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F75591EC3F0A0006AFDA6 /* SessionController.m */; };
-		2A2F76501EC3F0A0006AFDA6 /* interact.html in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F755B1EC3F0A0006AFDA6 /* interact.html */; };
-		2A2F76511EC3F0A0006AFDA6 /* iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F755D1EC3F0A0006AFDA6 /* iOS.m */; };
-		2A2F76521EC3F0A0006AFDA6 /* WebJsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F755F1EC3F0A0006AFDA6 /* WebJsController.m */; };
 		2A2F76531EC3F0A0006AFDA6 /* WebBridgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F75621EC3F0A0006AFDA6 /* WebBridgeController.m */; };
-		2A2F76541EC3F0A0006AFDA6 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F75641EC3F0A0006AFDA6 /* ExampleApp.html */; };
-		2A2F76551EC3F0A0006AFDA6 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F75661EC3F0A0006AFDA6 /* WebViewJavascriptBridge.m */; };
-		2A2F76561EC3F0A0006AFDA6 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F75681EC3F0A0006AFDA6 /* WebViewJavascriptBridge_JS.m */; };
-		2A2F76571EC3F0A0006AFDA6 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F756A1EC3F0A0006AFDA6 /* WebViewJavascriptBridgeBase.m */; };
-		2A2F76581EC3F0A0006AFDA6 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F756C1EC3F0A0006AFDA6 /* WKWebViewJavascriptBridge.m */; };
 		2A2F76591EC3F0A0006AFDA6 /* DeleTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F756F1EC3F0A0006AFDA6 /* DeleTableController.m */; };
 		2A2F765A1EC3F0A0006AFDA6 /* PanDuanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F75721EC3F0A0006AFDA6 /* PanDuanController.m */; };
 		2A2F765B1EC3F0A0006AFDA6 /* UIViewSimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F75761EC3F0A0006AFDA6 /* UIViewSimpleController.m */; };
@@ -444,6 +436,8 @@
 		2A2F77021EC46451006AFDA6 /* UILabel+UILabelRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F77011EC46451006AFDA6 /* UILabel+UILabelRuntime.m */; };
 		2A2F77051EC465EF006AFDA6 /* RuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F77041EC465EF006AFDA6 /* RuntimeController.m */; };
 		2A2F77071EC4682D006AFDA6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F77061EC4682D006AFDA6 /* Info.plist */; };
+		2A41B05E1ED6690E00E6D183 /* WKDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B05D1ED6690E00E6D183 /* WKDelegateController.m */; };
+		2A7C34281ECE81A6000993F0 /* ButtonLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C34271ECE81A6000993F0 /* ButtonLocationController.m */; };
 		2A8590EA1EC54355007F1F07 /* UIButton+UIButtonRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8590E91EC54355007F1F07 /* UIButton+UIButtonRuntime.m */; };
 		2A8590EC1EC5ADEF007F1F07 /* loveway.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8590EB1EC5AC55007F1F07 /* loveway.ttf */; };
 		2A9EF36E1EC9873F00C4D557 /* loveway.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A9EF3631EC9873F00C4D557 /* loveway.ttf */; };
@@ -1054,22 +1048,8 @@
 		2A2F75561EC3F0A0006AFDA6 /* ConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionController.m; sourceTree = "<group>"; };
 		2A2F75581EC3F0A0006AFDA6 /* SessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionController.h; sourceTree = "<group>"; };
 		2A2F75591EC3F0A0006AFDA6 /* SessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionController.m; sourceTree = "<group>"; };
-		2A2F755B1EC3F0A0006AFDA6 /* interact.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interact.html; sourceTree = "<group>"; };
-		2A2F755C1EC3F0A0006AFDA6 /* iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS.h; sourceTree = "<group>"; };
-		2A2F755D1EC3F0A0006AFDA6 /* iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS.m; sourceTree = "<group>"; };
-		2A2F755E1EC3F0A0006AFDA6 /* WebJsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebJsController.h; sourceTree = "<group>"; };
-		2A2F755F1EC3F0A0006AFDA6 /* WebJsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebJsController.m; sourceTree = "<group>"; };
 		2A2F75611EC3F0A0006AFDA6 /* WebBridgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBridgeController.h; sourceTree = "<group>"; };
 		2A2F75621EC3F0A0006AFDA6 /* WebBridgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBridgeController.m; sourceTree = "<group>"; };
-		2A2F75641EC3F0A0006AFDA6 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
-		2A2F75651EC3F0A0006AFDA6 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		2A2F75661EC3F0A0006AFDA6 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		2A2F75671EC3F0A0006AFDA6 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
-		2A2F75681EC3F0A0006AFDA6 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
-		2A2F75691EC3F0A0006AFDA6 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		2A2F756A1EC3F0A0006AFDA6 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		2A2F756B1EC3F0A0006AFDA6 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		2A2F756C1EC3F0A0006AFDA6 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		2A2F756E1EC3F0A0006AFDA6 /* DeleTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleTableController.h; sourceTree = "<group>"; };
 		2A2F756F1EC3F0A0006AFDA6 /* DeleTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleTableController.m; sourceTree = "<group>"; };
 		2A2F75711EC3F0A0006AFDA6 /* PanDuanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanDuanController.h; sourceTree = "<group>"; };
@@ -1214,6 +1194,10 @@
 		2A2F77031EC465EF006AFDA6 /* RuntimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeController.h; sourceTree = "<group>"; };
 		2A2F77041EC465EF006AFDA6 /* RuntimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeController.m; sourceTree = "<group>"; };
 		2A2F77061EC4682D006AFDA6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A41B05C1ED6690E00E6D183 /* WKDelegateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKDelegateController.h; sourceTree = "<group>"; };
+		2A41B05D1ED6690E00E6D183 /* WKDelegateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKDelegateController.m; sourceTree = "<group>"; };
+		2A7C34261ECE81A6000993F0 /* ButtonLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonLocationController.h; sourceTree = "<group>"; };
+		2A7C34271ECE81A6000993F0 /* ButtonLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonLocationController.m; sourceTree = "<group>"; };
 		2A8590E81EC54355007F1F07 /* UIButton+UIButtonRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButtonRuntime.h"; sourceTree = "<group>"; };
 		2A8590E91EC54355007F1F07 /* UIButton+UIButtonRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButtonRuntime.m"; sourceTree = "<group>"; };
 		2A8590EB1EC5AC55007F1F07 /* loveway.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = loveway.ttf; sourceTree = "<group>"; };
@@ -2117,6 +2101,7 @@
 		2A2F74401EC3F09F006AFDA6 /* 效果 */ = {
 			isa = PBXGroup;
 			children = (
+				2A7C34251ECE813A000993F0 /* 按钮图片的位置关系 */,
 				2A9EF3611EC986F200C4D557 /* 修改字体 */,
 				2A2F74411EC3F09F006AFDA6 /* CustomToastView和LCActionSheet */,
 				2A2F74441EC3F09F006AFDA6 /* MBProgressHUD */,
@@ -2744,7 +2729,6 @@
 				2A2F754F1EC3F0A0006AFDA6 /* NSTimer */,
 				2A2F75541EC3F0A0006AFDA6 /* NSURLConnection */,
 				2A2F75571EC3F0A0006AFDA6 /* NSURLSession */,
-				2A2F755A1EC3F0A0006AFDA6 /* UIwebView和JS交互 */,
 				2A2F75601EC3F0A0006AFDA6 /* WebViewBridge */,
 				2A2F756D1EC3F0A0006AFDA6 /* 删除单元格 */,
 				2A2F75701EC3F0A0006AFDA6 /* 判断输入的数字和小数点 */,
@@ -2816,18 +2800,6 @@
 			path = NSURLSession;
 			sourceTree = "<group>";
 		};
-		2A2F755A1EC3F0A0006AFDA6 /* UIwebView和JS交互 */ = {
-			isa = PBXGroup;
-			children = (
-				2A2F755B1EC3F0A0006AFDA6 /* interact.html */,
-				2A2F755C1EC3F0A0006AFDA6 /* iOS.h */,
-				2A2F755D1EC3F0A0006AFDA6 /* iOS.m */,
-				2A2F755E1EC3F0A0006AFDA6 /* WebJsController.h */,
-				2A2F755F1EC3F0A0006AFDA6 /* WebJsController.m */,
-			);
-			path = "UIwebView和JS交互";
-			sourceTree = "<group>";
-		};
 		2A2F75601EC3F0A0006AFDA6 /* WebViewBridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -2841,15 +2813,8 @@
 		2A2F75631EC3F0A0006AFDA6 /* WebViewJavascriptBridge */ = {
 			isa = PBXGroup;
 			children = (
-				2A2F75641EC3F0A0006AFDA6 /* ExampleApp.html */,
-				2A2F75651EC3F0A0006AFDA6 /* WebViewJavascriptBridge.h */,
-				2A2F75661EC3F0A0006AFDA6 /* WebViewJavascriptBridge.m */,
-				2A2F75671EC3F0A0006AFDA6 /* WebViewJavascriptBridge_JS.h */,
-				2A2F75681EC3F0A0006AFDA6 /* WebViewJavascriptBridge_JS.m */,
-				2A2F75691EC3F0A0006AFDA6 /* WebViewJavascriptBridgeBase.h */,
-				2A2F756A1EC3F0A0006AFDA6 /* WebViewJavascriptBridgeBase.m */,
-				2A2F756B1EC3F0A0006AFDA6 /* WKWebViewJavascriptBridge.h */,
-				2A2F756C1EC3F0A0006AFDA6 /* WKWebViewJavascriptBridge.m */,
+				2A41B05C1ED6690E00E6D183 /* WKDelegateController.h */,
+				2A41B05D1ED6690E00E6D183 /* WKDelegateController.m */,
 			);
 			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
@@ -3141,6 +3106,15 @@
 			path = UILabel;
 			sourceTree = "<group>";
 		};
+		2A7C34251ECE813A000993F0 /* 按钮图片的位置关系 */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C34261ECE81A6000993F0 /* ButtonLocationController.h */,
+				2A7C34271ECE81A6000993F0 /* ButtonLocationController.m */,
+			);
+			path = "按钮图片的位置关系";
+			sourceTree = "<group>";
+		};
 		2A8590E71EC54318007F1F07 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -3297,7 +3271,6 @@
 				2A2F72491EC3F07B006AFDA6 /* tab_index_before@2x.png in Resources */,
 				2A2F76731EC3F0A0006AFDA6 /* 购物车3.png in Resources */,
 				2A2F75E81EC3F0A0006AFDA6 /* shakeSound.mp3 in Resources */,
-				2A2F76541EC3F0A0006AFDA6 /* ExampleApp.html in Resources */,
 				2A2F73D01EC3F08D006AFDA6 /* DKColorTable.txt in Resources */,
 				2A2F723E1EC3F07B006AFDA6 /* reg_back@2x.png in Resources */,
 				2A2F74281EC3F094006AFDA6 /* 孙翠花.jpg in Resources */,
@@ -3332,7 +3305,6 @@
 				2A2F76B11EC43566006AFDA6 /* pageControlCurrentDot@3x.png in Resources */,
 				2A2F761D1EC3F0A0006AFDA6 /* 0-链接@2x.png in Resources */,
 				2A2F75CE1EC3F0A0006AFDA6 /* shopCavUnSelected@2x.png in Resources */,
-				2A2F76501EC3F0A0006AFDA6 /* interact.html in Resources */,
 				2A2F760F1EC3F0A0006AFDA6 /* 0-下一步按钮－正常态@2x.png in Resources */,
 				2A2F76631EC3F0A0006AFDA6 /* launch+@2x.png in Resources */,
 				2A2F77071EC4682D006AFDA6 /* Info.plist in Resources */,
@@ -3478,7 +3450,6 @@
 				2A2F76331EC3F0A0006AFDA6 /* PhotosController.m in Sources */,
 				2A2F76441EC3F0A0006AFDA6 /* ProgressView.m in Sources */,
 				2A2F767A1EC3F0A0006AFDA6 /* CustCollectionController.m in Sources */,
-				2A2F76551EC3F0A0006AFDA6 /* WebViewJavascriptBridge.m in Sources */,
 				2A2F73901EC3F08D006AFDA6 /* AFNetworkReachabilityManager.m in Sources */,
 				2A2F76291EC3F0A0006AFDA6 /* RecordProgressView.m in Sources */,
 				2A2F76071EC3F0A0006AFDA6 /* WPLabelController.m in Sources */,
@@ -3520,7 +3491,6 @@
 				2A2F76ED1EC43A5E006AFDA6 /* UIImage+GIF.m in Sources */,
 				2A2F73A61EC3F08D006AFDA6 /* QNDnspodFree.m in Sources */,
 				2A2F73E11EC3F08D006AFDA6 /* UIControl+Night.m in Sources */,
-				2A2F76511EC3F0A0006AFDA6 /* iOS.m in Sources */,
 				2A2F739B1EC3F08D006AFDA6 /* UIProgressView+AFNetworking.m in Sources */,
 				2A2F73A91EC3F08D006AFDA6 /* QNResolver.m in Sources */,
 				2A2F73D11EC3F08D006AFDA6 /* DKAlpha.m in Sources */,
@@ -3567,6 +3537,7 @@
 				2A2F73C11EC3F08D006AFDA6 /* QNResumeUpload.m in Sources */,
 				2A2F739C1EC3F08D006AFDA6 /* UIRefreshControl+AFNetworking.m in Sources */,
 				2A2F73D21EC3F08D006AFDA6 /* DKColor.m in Sources */,
+				2A41B05E1ED6690E00E6D183 /* WKDelegateController.m in Sources */,
 				2A2F73D81EC3F08D006AFDA6 /* DKDeallocBlockExecutor.m in Sources */,
 				2A2F75DD1EC3F0A0006AFDA6 /* ShareController.m in Sources */,
 				2A2F73D61EC3F08D006AFDA6 /* CALayer+Night.m in Sources */,
@@ -3598,7 +3569,6 @@
 				2A2F73CA1EC3F08D006AFDA6 /* NSMutableAttributedString+AvoidCrash.m in Sources */,
 				2A2F763B1EC3F0A0006AFDA6 /* ShopDetailController.m in Sources */,
 				2A2F76EA1EC43A5E006AFDA6 /* SDWebImageManager.m in Sources */,
-				2A2F76561EC3F0A0006AFDA6 /* WebViewJavascriptBridge_JS.m in Sources */,
 				2A2F739E1EC3F08D006AFDA6 /* QNAssessment.m in Sources */,
 				2A2F75EA1EC3F0A0006AFDA6 /* AplyPasswordController.m in Sources */,
 				2A2F73BD1EC3F08D006AFDA6 /* QNUserAgent.m in Sources */,
@@ -3608,6 +3578,7 @@
 				2A2F75C21EC3F0A0006AFDA6 /* SetCell.m in Sources */,
 				2A2F76491EC3F0A0006AFDA6 /* CATransitionController.m in Sources */,
 				2A2F742D1EC3F094006AFDA6 /* TabBarController.m in Sources */,
+				2A7C34281ECE81A6000993F0 /* ButtonLocationController.m in Sources */,
 				2A2F76081EC3F0A0006AFDA6 /* BRPlaceholderTextView.m in Sources */,
 				2A9EF3701EC9873F00C4D557 /* TextViewCustom.m in Sources */,
 				2A2F73AA1EC3F08D006AFDA6 /* QNResolvUtil.m in Sources */,
@@ -3616,7 +3587,6 @@
 				2A2F75D01EC3F0A0006AFDA6 /* TaoBaoCavCell.m in Sources */,
 				2A2F73DD1EC3F08D006AFDA6 /* UISearchBar+Keyboard.m in Sources */,
 				2A2F74231EC3F094006AFDA6 /* DGBWriteViewController.m in Sources */,
-				2A2F76571EC3F0A0006AFDA6 /* WebViewJavascriptBridgeBase.m in Sources */,
 				2A2F73A11EC3F08D006AFDA6 /* QNDomain.m in Sources */,
 				2A2F73911EC3F08D006AFDA6 /* AFSecurityPolicy.m in Sources */,
 				2A2F767C1EC3F0A0006AFDA6 /* CustHeaderView.m in Sources */,
@@ -3686,7 +3656,6 @@
 				2A2F76771EC3F0A0006AFDA6 /* FmdbManger.m in Sources */,
 				2A2F73C21EC3F08D006AFDA6 /* QNUploadManager.m in Sources */,
 				2A2F75F71EC3F0A0006AFDA6 /* QRCodeGenerator.m in Sources */,
-				2A2F76581EC3F0A0006AFDA6 /* WKWebViewJavascriptBridge.m in Sources */,
 				2A2F75EC1EC3F0A0006AFDA6 /* GHCalendarController.m in Sources */,
 				2A2F71BF1EC3EDDB006AFDA6 /* main.m in Sources */,
 				2A2F76591EC3F0A0006AFDA6 /* DeleTableController.m in Sources */,
@@ -3701,7 +3670,6 @@
 				2A2F73F61EC3F08D006AFDA6 /* UIView+Additions.m in Sources */,
 				2A2F74201EC3F094006AFDA6 /* BaseController.m in Sources */,
 				2A2F73931EC3F08D006AFDA6 /* AFURLResponseSerialization.m in Sources */,
-				2A2F76521EC3F0A0006AFDA6 /* WebJsController.m in Sources */,
 				2A2F74241EC3F094006AFDA6 /* HomeController.m in Sources */,
 				2A2F75FB1EC3F0A0006AFDA6 /* rscode.c in Sources */,
 				2A2F75EB1EC3F0A0006AFDA6 /* SYPasswordView.m in Sources */,
