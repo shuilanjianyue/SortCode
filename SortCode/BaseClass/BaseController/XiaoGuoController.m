@@ -45,8 +45,9 @@
 #import "ShopCavController.h"
 #import "UPAndDownController.h"
 #import "SDSycleController.h"
-#import "UpdateFontsssController.h"
 #import "ButtonLocationController.h"
+#import "UpdateFontsssController.h"
+
 
 @interface XiaoGuoController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -68,7 +69,7 @@
     
     
     
-    self.dataArray = @[@"1、二维码扫描",@"2、购物详情页",@"3、仿淘宝购物车",@"4、界面之间的滑动1",@"5、获取相簿中的所有图片",@"6、MBProgressHUD",@"7、瀑布流",@"8、摇一摇",@"9、自定义UITextField的Placeholder颜色",@"10、CustomToastView和LCActionSheet",@"11、自定义键盘",@"12、点击单元格弹出菜单",@"13、七牛存储",@"14、自定义TextView",@"15、UIAlertController登录",@"16、校验码",@"17、仿百度外卖订餐列表",@"18、自定义Label的位置",@"19、分享",@"20、图片的裁剪",@"21、支付宝支付密码",@"22、通讯录",@"23、日历",@"24、时间选择器",@"25、左划单元格",@"26、UIAlert修改字体颜色",@"27、自定义UIAlert",@"28、AVFoundation自定义相机",@"29、手势密码锁",@"30、录像",@"31、生成二维码",@"32、震动动画效果",@"33、进度条",@"34、上下左右滑动（未完成）",@"35、滑动评价",@"36、交换界面",@"37、购物车动画效果",@"38、轮播图",@"39、修改字体",@"40、按钮中图片与文字的位置关系"];
+    self.dataArray = @[@"1、二维码扫描",@"2、购物详情页",@"3、仿淘宝购物车",@"4、界面之间的滑动1",@"5、获取相簿中的所有图片",@"6、MBProgressHUD",@"7、瀑布流",@"8、摇一摇",@"9、自定义UITextField的Placeholder颜色",@"10、CustomToastView和LCActionSheet",@"11、自定义键盘",@"12、点击单元格弹出菜单",@"13、七牛存储",@"14、自定义TextView",@"15、UIAlertController登录",@"16、校验码",@"17、仿百度外卖订餐列表",@"18、自定义Label的位置",@"19、分享",@"20、图片的裁剪",@"21、支付宝支付密码",@"22、通讯录",@"23、日历",@"24、时间选择器",@"25、左划单元格",@"26、UIAlert修改字体颜色",@"27、自定义UIAlert",@"28、AVFoundation自定义相机",@"29、手势密码锁",@"30、录像",@"31、生成二维码",@"32、震动动画效果",@"33、进度条",@"34、上下左右滑动（未完成）",@"35、滑动评价",@"36、交换界面",@"37、购物车动画效果",@"38、轮播图",@"39、按钮中图片与文字的位置关系",@"40、修改字体"];
     
     
     self.myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, NavHeight, SCREEN_WIDTH, SCREEN_HEIGHT - NavHeight - 49) style:UITableViewStylePlain];
@@ -282,15 +283,18 @@
         [self pushNewViewController:sycle];
         
     }else if (indexPath.row == 38){
+        
+        ButtonLocationController *button = [[ButtonLocationController alloc]init];
+        
+        [self pushNewViewController:button];
+        
+    }else if (indexPath.row == 39){
         UpdateFontsssController *font = [[UpdateFontsssController alloc]init];
         
         [self pushNewViewController:font];
         
+    }else if (indexPath.row == 40){
         
-    }else if (indexPath.row == 39){
-        ButtonLocationController *button = [[ButtonLocationController alloc]init];
-        
-        [self pushNewViewController:button];
         
     }
 }

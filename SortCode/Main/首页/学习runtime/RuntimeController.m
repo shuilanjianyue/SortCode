@@ -29,11 +29,11 @@
         
         //_runtimeLabel.autoTag = 100;
         _runtimeLabel.text = @"国际在线专稿：据今日俄罗斯通讯社5月10日援引《金边邮报》报道称，柬埔寨政府将建立一个条件优越的VIP监";
-        CGSize labelSize = [_runtimeLabel autoLabel];
+//        CGSize labelSize = [_runtimeLabel autoLabel];
+//        
+        _runtimeLabel.frame = CGRectMake(0, NavHeight, 100, 200);
         
-        _runtimeLabel.frame = CGRectMake(0, NavHeight, 100, labelSize.height);
-        
-         NSLog(@"labelSize.height= %f",labelSize.height);
+       //  NSLog(@"labelSize.height= %f",labelSize.height);
     }
     
     return _runtimeLabel;

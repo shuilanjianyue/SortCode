@@ -51,6 +51,7 @@
 }
 
 
+
 - (UIButtonCustom *)updateButton{
     if (!_updateButton) {
         _updateButton = [[UIButtonCustom  alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2 - 100/2,220 , 100, 40)];

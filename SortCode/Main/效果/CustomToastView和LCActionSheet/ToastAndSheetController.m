@@ -69,6 +69,7 @@
 
 
 -(void)stop{
+    
     [toast stopAndRemoveFromSuperView];
     
 }
@@ -103,12 +104,13 @@
     
 }
 
-#pragma mark - LCActionSheet 代理方法
 
+#pragma mark - LCActionSheet 代理方法
 - (void)actionSheet:(LCActionSheet *)actionSheet didClickedButtonAtIndex:(NSInteger)buttonIndex {
     
     NSLog(@"> Delegate way -> Clicked Index: %ld", (long)buttonIndex);
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

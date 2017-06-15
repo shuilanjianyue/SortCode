@@ -16,7 +16,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        // Initialization code
+          // Initialization code
 //        self.backgroundColor = [UIColor clearColor];
 //        self.font = [UIFont systemFontOfSize:17.0];
         

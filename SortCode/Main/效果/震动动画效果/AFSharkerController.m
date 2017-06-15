@@ -28,8 +28,6 @@
     self.navBar.titleLabel.text = @"震动动画效果";
     
     
-    
-    
     //输入手机号
     self.phoneTextField = [[UITextField alloc]initWithFrame:CGRectMake(30,NavHeight + 50, SCREEN_WIDTH-60, 45)];
     self.phoneTextField.layer.masksToBounds = YES;
@@ -77,6 +75,8 @@
     button.backgroundColor = [UIColor magentaColor];
     [button addTarget:self action:@selector(buAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
+    
     // Do any additional setup after loading the view.
 }
 

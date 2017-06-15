@@ -7,17 +7,16 @@
 //
 #import "UILabel+UILabelRuntime.h"
 #import <objc/runtime.h>
-     
+#import "UpdateManger.h"
+
 @implementation UILabel (UILabelRuntime)
 
 /**************UILabel自定义适配************************/
-
 /*
  *
  *UILabel自定义适配的宽度
  *
  */
-
 - (CGFloat)autoWidth{
     return [objc_getAssociatedObject(self, _cmd) floatValue];
 }
@@ -53,19 +52,19 @@
  *
  */
 -(CGSize)autoLabel{
- 
-   
-
-        if (self.autoLabelTag == 100) {
-            
-            self.font = [UIFont systemFontOfSize:self.font.pointSize];
-            
-            
-        } else {
-            
-            if ([UIFont fontNamesForFamilyName:@"FZLBJW--GB1-0"])
-                self.font  = [UIFont fontWithName:@"FZLBJW--GB1-0" size:self.font.pointSize];
-        }
+    
+    
+    
+    if (self.autoLabelTag == 100) {
+        
+        self.font = [UIFont systemFontOfSize:self.font.pointSize];
+        
+        
+    } else {
+        
+        if ([UIFont fontNamesForFamilyName:@"FZLBJW--GB1-0"])
+            self.font  = [UIFont fontWithName:@"FZLBJW--GB1-0" size:self.font.pointSize];
+    }
     
     self.numberOfLines = 0;
     
@@ -130,5 +129,6 @@
         }
     }
 }
+
 
 @end

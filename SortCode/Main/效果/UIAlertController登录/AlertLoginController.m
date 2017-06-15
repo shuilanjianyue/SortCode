@@ -80,7 +80,9 @@
 
 
 - (void)alertTextFieldDidChange:(NSNotification *)notification{
+    
     UIAlertController *alertController = (UIAlertController *)self.presentedViewController;
+    
     if (alertController) {
         UITextField *login = alertController.textFields.firstObject;
         NSLog(@"%@",login.text);

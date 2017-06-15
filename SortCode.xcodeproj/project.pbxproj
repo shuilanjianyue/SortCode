@@ -440,13 +440,12 @@
 		2A7C34281ECE81A6000993F0 /* ButtonLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C34271ECE81A6000993F0 /* ButtonLocationController.m */; };
 		2A8590EA1EC54355007F1F07 /* UIButton+UIButtonRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8590E91EC54355007F1F07 /* UIButton+UIButtonRuntime.m */; };
 		2A8590EC1EC5ADEF007F1F07 /* loveway.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8590EB1EC5AC55007F1F07 /* loveway.ttf */; };
-		2A9EF36E1EC9873F00C4D557 /* loveway.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A9EF3631EC9873F00C4D557 /* loveway.ttf */; };
-		2A9EF36F1EC9873F00C4D557 /* TextFieldCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EF3651EC9873F00C4D557 /* TextFieldCustom.m */; };
-		2A9EF3701EC9873F00C4D557 /* TextViewCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EF3671EC9873F00C4D557 /* TextViewCustom.m */; };
-		2A9EF3711EC9873F00C4D557 /* UIButtonCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EF3691EC9873F00C4D557 /* UIButtonCustom.m */; };
-		2A9EF3721EC9873F00C4D557 /* UILabelCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EF36B1EC9873F00C4D557 /* UILabelCustom.m */; };
-		2A9EF3731EC9873F00C4D557 /* UpdateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EF36D1EC9873F00C4D557 /* UpdateManger.m */; };
-		2A9EF3761EC9875E00C4D557 /* UpdateFontsssController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EF3751EC9875E00C4D557 /* UpdateFontsssController.m */; };
+		2A85EECA1EE6512900912244 /* TextFieldCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85EEBE1EE6512900912244 /* TextFieldCustom.m */; };
+		2A85EECB1EE6512900912244 /* TextViewCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85EEC01EE6512900912244 /* TextViewCustom.m */; };
+		2A85EECC1EE6512900912244 /* UIButtonCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85EEC21EE6512900912244 /* UIButtonCustom.m */; };
+		2A85EECD1EE6512900912244 /* UILabelCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85EEC41EE6512900912244 /* UILabelCustom.m */; };
+		2A85EECE1EE6512900912244 /* UpdateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85EEC61EE6512900912244 /* UpdateManger.m */; };
+		2A85EECF1EE6512900912244 /* UpdateFontsssController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85EEC81EE6512900912244 /* UpdateFontsssController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1201,19 +1200,18 @@
 		2A8590E81EC54355007F1F07 /* UIButton+UIButtonRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButtonRuntime.h"; sourceTree = "<group>"; };
 		2A8590E91EC54355007F1F07 /* UIButton+UIButtonRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButtonRuntime.m"; sourceTree = "<group>"; };
 		2A8590EB1EC5AC55007F1F07 /* loveway.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = loveway.ttf; sourceTree = "<group>"; };
-		2A9EF3631EC9873F00C4D557 /* loveway.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = loveway.ttf; sourceTree = "<group>"; };
-		2A9EF3641EC9873F00C4D557 /* TextFieldCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCustom.h; sourceTree = "<group>"; };
-		2A9EF3651EC9873F00C4D557 /* TextFieldCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCustom.m; sourceTree = "<group>"; };
-		2A9EF3661EC9873F00C4D557 /* TextViewCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewCustom.h; sourceTree = "<group>"; };
-		2A9EF3671EC9873F00C4D557 /* TextViewCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewCustom.m; sourceTree = "<group>"; };
-		2A9EF3681EC9873F00C4D557 /* UIButtonCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonCustom.h; sourceTree = "<group>"; };
-		2A9EF3691EC9873F00C4D557 /* UIButtonCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonCustom.m; sourceTree = "<group>"; };
-		2A9EF36A1EC9873F00C4D557 /* UILabelCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelCustom.h; sourceTree = "<group>"; };
-		2A9EF36B1EC9873F00C4D557 /* UILabelCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelCustom.m; sourceTree = "<group>"; };
-		2A9EF36C1EC9873F00C4D557 /* UpdateManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateManger.h; sourceTree = "<group>"; };
-		2A9EF36D1EC9873F00C4D557 /* UpdateManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateManger.m; sourceTree = "<group>"; };
-		2A9EF3741EC9875E00C4D557 /* UpdateFontsssController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateFontsssController.h; sourceTree = "<group>"; };
-		2A9EF3751EC9875E00C4D557 /* UpdateFontsssController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateFontsssController.m; sourceTree = "<group>"; };
+		2A85EEBD1EE6512900912244 /* TextFieldCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCustom.h; sourceTree = "<group>"; };
+		2A85EEBE1EE6512900912244 /* TextFieldCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCustom.m; sourceTree = "<group>"; };
+		2A85EEBF1EE6512900912244 /* TextViewCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewCustom.h; sourceTree = "<group>"; };
+		2A85EEC01EE6512900912244 /* TextViewCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewCustom.m; sourceTree = "<group>"; };
+		2A85EEC11EE6512900912244 /* UIButtonCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonCustom.h; sourceTree = "<group>"; };
+		2A85EEC21EE6512900912244 /* UIButtonCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonCustom.m; sourceTree = "<group>"; };
+		2A85EEC31EE6512900912244 /* UILabelCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelCustom.h; sourceTree = "<group>"; };
+		2A85EEC41EE6512900912244 /* UILabelCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelCustom.m; sourceTree = "<group>"; };
+		2A85EEC51EE6512900912244 /* UpdateManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateManger.h; sourceTree = "<group>"; };
+		2A85EEC61EE6512900912244 /* UpdateManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateManger.m; sourceTree = "<group>"; };
+		2A85EEC71EE6512900912244 /* UpdateFontsssController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateFontsssController.h; sourceTree = "<group>"; };
+		2A85EEC81EE6512900912244 /* UpdateFontsssController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateFontsssController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2101,8 +2099,9 @@
 		2A2F74401EC3F09F006AFDA6 /* 效果 */ = {
 			isa = PBXGroup;
 			children = (
+				2A85EEBA1EE6510A00912244 /* 修改字体 */,
+				2A87C9751EDE4F5E007363A3 /* UIpickView的封装 */,
 				2A7C34251ECE813A000993F0 /* 按钮图片的位置关系 */,
-				2A9EF3611EC986F200C4D557 /* 修改字体 */,
 				2A2F74411EC3F09F006AFDA6 /* CustomToastView和LCActionSheet */,
 				2A2F74441EC3F09F006AFDA6 /* MBProgressHUD */,
 				2A2F744A1EC3F09F006AFDA6 /* UIAlertController登录 */,
@@ -3124,32 +3123,38 @@
 			path = UIButton;
 			sourceTree = "<group>";
 		};
-		2A9EF3611EC986F200C4D557 /* 修改字体 */ = {
+		2A85EEBA1EE6510A00912244 /* 修改字体 */ = {
 			isa = PBXGroup;
 			children = (
-				2A9EF3621EC9873F00C4D557 /* Update */,
-				2A9EF3741EC9875E00C4D557 /* UpdateFontsssController.h */,
-				2A9EF3751EC9875E00C4D557 /* UpdateFontsssController.m */,
+				2A85EEBB1EE6512900912244 /* Update */,
+				2A85EEC71EE6512900912244 /* UpdateFontsssController.h */,
+				2A85EEC81EE6512900912244 /* UpdateFontsssController.m */,
 			);
 			path = "修改字体";
 			sourceTree = "<group>";
 		};
-		2A9EF3621EC9873F00C4D557 /* Update */ = {
+		2A85EEBB1EE6512900912244 /* Update */ = {
 			isa = PBXGroup;
 			children = (
-				2A9EF3631EC9873F00C4D557 /* loveway.ttf */,
-				2A9EF3641EC9873F00C4D557 /* TextFieldCustom.h */,
-				2A9EF3651EC9873F00C4D557 /* TextFieldCustom.m */,
-				2A9EF3661EC9873F00C4D557 /* TextViewCustom.h */,
-				2A9EF3671EC9873F00C4D557 /* TextViewCustom.m */,
-				2A9EF3681EC9873F00C4D557 /* UIButtonCustom.h */,
-				2A9EF3691EC9873F00C4D557 /* UIButtonCustom.m */,
-				2A9EF36A1EC9873F00C4D557 /* UILabelCustom.h */,
-				2A9EF36B1EC9873F00C4D557 /* UILabelCustom.m */,
-				2A9EF36C1EC9873F00C4D557 /* UpdateManger.h */,
-				2A9EF36D1EC9873F00C4D557 /* UpdateManger.m */,
+				2A85EEBD1EE6512900912244 /* TextFieldCustom.h */,
+				2A85EEBE1EE6512900912244 /* TextFieldCustom.m */,
+				2A85EEBF1EE6512900912244 /* TextViewCustom.h */,
+				2A85EEC01EE6512900912244 /* TextViewCustom.m */,
+				2A85EEC11EE6512900912244 /* UIButtonCustom.h */,
+				2A85EEC21EE6512900912244 /* UIButtonCustom.m */,
+				2A85EEC31EE6512900912244 /* UILabelCustom.h */,
+				2A85EEC41EE6512900912244 /* UILabelCustom.m */,
+				2A85EEC51EE6512900912244 /* UpdateManger.h */,
+				2A85EEC61EE6512900912244 /* UpdateManger.m */,
 			);
 			path = Update;
+			sourceTree = "<group>";
+		};
+		2A87C9751EDE4F5E007363A3 /* UIpickView的封装 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIpickView的封装";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3265,7 +3270,6 @@
 				2A2F725D1EC3F07B006AFDA6 /* tabbar_compose_music@2x.png in Resources */,
 				2A2F75E51EC3F0A0006AFDA6 /* Star1_new_star.png in Resources */,
 				2A2F738A1EC3F08D006AFDA6 /* LCActionSheet.bundle in Resources */,
-				2A9EF36E1EC9873F00C4D557 /* loveway.ttf in Resources */,
 				2A2F76041EC3F0A0006AFDA6 /* navigation_bar@2x.png in Resources */,
 				2A2F766E1EC3F0A0006AFDA6 /* LaunDeCell.xib in Resources */,
 				2A2F72491EC3F07B006AFDA6 /* tab_index_before@2x.png in Resources */,
@@ -3470,6 +3474,7 @@
 				2A2F75C51EC3F0A0006AFDA6 /* ToastAndSheetController.m in Sources */,
 				2A2F75C61EC3F0A0006AFDA6 /* MBProgressController.m in Sources */,
 				2A2F75E01EC3F0A0006AFDA6 /* ClipViewController.m in Sources */,
+				2A85EECD1EE6512900912244 /* UILabelCustom.m in Sources */,
 				2A2F73E01EC3F08D006AFDA6 /* UIBarButtonItem+Night.m in Sources */,
 				2A2F76981EC4345E006AFDA6 /* TAAbstractDotView.m in Sources */,
 				2A2F760B1EC3F0A0006AFDA6 /* CustomAlertView.m in Sources */,
@@ -3493,6 +3498,7 @@
 				2A2F73E11EC3F08D006AFDA6 /* UIControl+Night.m in Sources */,
 				2A2F739B1EC3F08D006AFDA6 /* UIProgressView+AFNetworking.m in Sources */,
 				2A2F73A91EC3F08D006AFDA6 /* QNResolver.m in Sources */,
+				2A85EECC1EE6512900912244 /* UIButtonCustom.m in Sources */,
 				2A2F73D11EC3F08D006AFDA6 /* DKAlpha.m in Sources */,
 				2A2F73D51EC3F08D006AFDA6 /* NSObject+Night.m in Sources */,
 				2A2F76791EC3F0A0006AFDA6 /* CustCell.m in Sources */,
@@ -3510,6 +3516,7 @@
 				2A2F73971EC3F08D006AFDA6 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				2A2F76691EC3F0A0006AFDA6 /* LaunchFCell.m in Sources */,
 				2A8590EA1EC54355007F1F07 /* UIButton+UIButtonRuntime.m in Sources */,
+				2A85EECB1EE6512900912244 /* TextViewCustom.m in Sources */,
 				2A2F73A81EC3F08D006AFDA6 /* QNHosts.m in Sources */,
 				2A2F76611EC3F0A0006AFDA6 /* PersonModel.m in Sources */,
 				2A2F764A1EC3F0A0006AFDA6 /* GCDController.m in Sources */,
@@ -3580,9 +3587,7 @@
 				2A2F742D1EC3F094006AFDA6 /* TabBarController.m in Sources */,
 				2A7C34281ECE81A6000993F0 /* ButtonLocationController.m in Sources */,
 				2A2F76081EC3F0A0006AFDA6 /* BRPlaceholderTextView.m in Sources */,
-				2A9EF3701EC9873F00C4D557 /* TextViewCustom.m in Sources */,
 				2A2F73AA1EC3F08D006AFDA6 /* QNResolvUtil.m in Sources */,
-				2A9EF3711EC9873F00C4D557 /* UIButtonCustom.m in Sources */,
 				2A2F76061EC3F0A0006AFDA6 /* WPLabel.m in Sources */,
 				2A2F75D01EC3F0A0006AFDA6 /* TaoBaoCavCell.m in Sources */,
 				2A2F73DD1EC3F08D006AFDA6 /* UISearchBar+Keyboard.m in Sources */,
@@ -3624,7 +3629,6 @@
 				2A2F765F1EC3F0A0006AFDA6 /* ShouShiController.m in Sources */,
 				2A2F739D1EC3F08D006AFDA6 /* UIWebView+AFNetworking.m in Sources */,
 				2A2F73EB1EC3F08D006AFDA6 /* UITextField+Night.m in Sources */,
-				2A9EF36F1EC9873F00C4D557 /* TextFieldCustom.m in Sources */,
 				2A2F73A71EC3F08D006AFDA6 /* QNHijackingDetectWrapper.m in Sources */,
 				2A2F73A01EC3F08D006AFDA6 /* QNDnsManager.m in Sources */,
 				2A2F76EE1EC43A5E006AFDA6 /* UIImage+MultiFormat.m in Sources */,
@@ -3640,7 +3644,6 @@
 				2A2F742A1EC3F094006AFDA6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				2A2F763F1EC3F0A0006AFDA6 /* ShopCavCell.m in Sources */,
 				2A2F767D1EC3F0A0006AFDA6 /* CentralController.m in Sources */,
-				2A9EF3721EC9873F00C4D557 /* UILabelCustom.m in Sources */,
 				2A2F73E31EC3F08D006AFDA6 /* UINavigationBar+Night.m in Sources */,
 				2A2F75F21EC3F0A0006AFDA6 /* MenuCell.m in Sources */,
 				2A2F73B21EC3F08D006AFDA6 /* QNALAssetFile.m in Sources */,
@@ -3666,6 +3669,7 @@
 				2A2F75F51EC3F0A0006AFDA6 /* bitstream.c in Sources */,
 				2A2F766B1EC3F0A0006AFDA6 /* LaunchGouCell.m in Sources */,
 				2A2F73D31EC3F08D006AFDA6 /* DKImage.m in Sources */,
+				2A85EECF1EE6512900912244 /* UpdateFontsssController.m in Sources */,
 				2A2F73C71EC3F08D006AFDA6 /* NSAttributedString+AvoidCrash.m in Sources */,
 				2A2F73F61EC3F08D006AFDA6 /* UIView+Additions.m in Sources */,
 				2A2F74201EC3F094006AFDA6 /* BaseController.m in Sources */,
@@ -3677,6 +3681,7 @@
 				2A2F769D1EC4345E006AFDA6 /* SDCycleScrollView.m in Sources */,
 				2A2F73941EC3F08D006AFDA6 /* AFURLSessionManager.m in Sources */,
 				2A2F75C41EC3F0A0006AFDA6 /* SetController.m in Sources */,
+				2A85EECE1EE6512900912244 /* UpdateManger.m in Sources */,
 				2A2F76011EC3F0A0006AFDA6 /* HuaDong4Controller.m in Sources */,
 				2A2F73B01EC3F08D006AFDA6 /* QNIP.m in Sources */,
 				2A2F76001EC3F0A0006AFDA6 /* HuaDong3Controller.m in Sources */,
@@ -3686,11 +3691,9 @@
 				2A2F742B1EC3F094006AFDA6 /* NavController.m in Sources */,
 				2A2F73F21EC3F08D006AFDA6 /* FMDatabaseQueue.m in Sources */,
 				2A2F75FF1EC3F0A0006AFDA6 /* HuaDong2Controller.m in Sources */,
-				2A9EF3761EC9875E00C4D557 /* UpdateFontsssController.m in Sources */,
 				2A2F738F1EC3F08D006AFDA6 /* AFHTTPSessionManager.m in Sources */,
 				2A2F73F91EC3F08D006AFDA6 /* GTMBase64.m in Sources */,
 				2A2F77051EC465EF006AFDA6 /* RuntimeController.m in Sources */,
-				2A9EF3731EC9873F00C4D557 /* UpdateManger.m in Sources */,
 				2A2F75ED1EC3F0A0006AFDA6 /* TimePickerController.m in Sources */,
 				2A2F73FF1EC3F08D006AFDA6 /* UIColor+Custome.m in Sources */,
 				2A2F739F1EC3F08D006AFDA6 /* QNIpModel.m in Sources */,
@@ -3700,6 +3703,7 @@
 				2A2F73CF1EC3F08D006AFDA6 /* DKColorTable.m in Sources */,
 				2A2F76741EC3F0A0006AFDA6 /* AddressController.m in Sources */,
 				2A2F73DB1EC3F08D006AFDA6 /* UIImageView+Night.m in Sources */,
+				2A85EECA1EE6512900912244 /* TextFieldCustom.m in Sources */,
 				2A2F73F31EC3F08D006AFDA6 /* FMResultSet.m in Sources */,
 				2A2F76531EC3F0A0006AFDA6 /* WebBridgeController.m in Sources */,
 				2A2F73FE1EC3F08D006AFDA6 /* NullSafe.m in Sources */,
@@ -3857,7 +3861,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: yuanyuan yang (242BSDFSQ9)";
 				DEVELOPMENT_TEAM = 7M5998VS3U;
-				GCC_PREFIX_HEADER = /Users/dazaoqiancheng/Desktop/GitTub/SortCode/SortCode/Other/SortCode.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SortCode/Other/SortCode.pch";
 				INFOPLIST_FILE = SortCode/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3875,7 +3879,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: yuanyuan yang (242BSDFSQ9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuanyuan yang (242BSDFSQ9)";
 				DEVELOPMENT_TEAM = 7M5998VS3U;
-				GCC_PREFIX_HEADER = /Users/dazaoqiancheng/Desktop/GitTub/SortCode/SortCode/Other/SortCode.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SortCode/Other/SortCode.pch";
 				INFOPLIST_FILE = SortCode/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
